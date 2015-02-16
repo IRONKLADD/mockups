@@ -4,6 +4,8 @@ function TempBoard(X,Y) {
   var gridY = Y || 3;
   this.init = init;
   this.printArr = printArr;
+  this.set = set;
+  this.get = get;
   var grid = new Array(this.gridX);
   this.init();
   
@@ -25,8 +27,16 @@ function TempBoard(X,Y) {
   		}
   		temp = temp + "\n";
   	}
-  	console.log(temp);
   	return temp;
+  }
+  function set(row,column,replace){
+    console.log("STIG");
+    console.log(row);
+    console.log(column);
+    grid[row][column] = replace;
+  }
+  function get(row,column){
+    return grid[row][column];
   }
 }
 

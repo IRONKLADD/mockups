@@ -23,6 +23,11 @@ Cut({
     { name : "d_7",          x : 7*8,   y : 20, width : 8,  height : 8 },
     { name : "d_8",          x : 8*8,   y : 20, width : 8,  height : 8 },
     { name : "d_9",          x : 9*8,   y : 20, width : 8,  height : 8 },
+
+    { name : "word_9",          x : 9*8,   y : 20, width : 8,  height : 8 },
+    { name : "word_3",          x : 3*8,   y : 20, width : 8,  height : 8 },
+    { name : "word_7",          x : 7*8,   y : 20, width : 8,  height : 8 },
+    { name : "word_2",          x : 2*8,   y : 20, width : 8,  height : 8 },
     
     { name : "box",          x : 0,     y : 32, width : 16, height : 16, top : 16/4, bottom : 16/4, left : 16/4, right : 16/4},
     
